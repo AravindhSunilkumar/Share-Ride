@@ -26,8 +26,8 @@ class add_profile(models.Model):
     vehicle_img = models.ImageField(upload_to='profiles', null=True, blank=True)
     new_field = models.CharField(max_length=50, null=True, blank=True)  # New field
 
-    def __str__(self):
-        return self.name
+    # def __str__(self):
+    #     return self.name
 
 
 class vehicle_owner(models.Model):
